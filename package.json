@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "codegen": "graphql-codegen",
+    "build": "tsc",
+    "start": "npm run build && node ./dist/src/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.9.5",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@eddeee888/gcg-typescript-resolver-files": "^0.7.2",
+    "@graphql-codegen/cli": "^5.0.0",
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
